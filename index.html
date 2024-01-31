@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamoppgave!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="inv" id="inventory" draggable="true" onclick="openInv">Inventory
+        </div>
+        <div class="out" id="boxOut" draggable="true">Ut hent boks
+            <button class="addBtn" onclick="addItem()">
+                Hent item
+            </button>
+            <button class="removeBtn" onclick="removeItem()">
+                Fjern item
+            </button>
+        </div>
+    </div>
+    
+    <div class="basket" style="background-color: blueviolet;" draggable="true" onclick=>
+        kurv
+        
+    </div>
+    <div class="basOut" id="basketOut" draggable="true">Ut hent boks
+        <button class="addBtn" onclick="addItem()">
+            Hent item
+        </button>
+        <button class="removeBtn" onclick="removeItem()">
+            Fjern item
+        </button>
+    </div>
+    
+</body>
+
+</html>
